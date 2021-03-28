@@ -1,0 +1,16 @@
+/*Exercice de reproduction d'un formulaire tricolore*/
+.identité {
+  width: auto;
+  height: auto;
+  background-color: blue;
+}
+.adresse {
+  width: auto;
+  height: auto;
+  background-color: purple;
+}
+.réglement {
+  width: auto;
+  height: auto;
+  background-color: magenta;
+}

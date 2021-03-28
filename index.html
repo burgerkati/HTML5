@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire tricolore</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Votre identité</legend>
+      <form class="identité">
+        <ol>
+          <li>Nom <input type="text" name="nom" placeholder="Nom"></li>
+          <li>Prénom <input type="text" name="prénom" placeholder="Prénom"></li>
+          <li>Adresse mail <input type="email" name="email" placeholder="Adresse mail"></li>
+        </ol>
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>Adresse de livraison</legend>
+      <form class="adresse">
+        <ol>
+          <li>Adresse<textarea name="adresse" rows="5" cols="20"></textarea></li>
+          <li>Code postal<input type="number" name="codepostal" placeholder="Code postal"></li>
+          <li>Ville<input type="text" name="ville" placeholder="Ville"></li>
+        </ol>
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>Information de règlement</legend>
+      <form class="réglement">
+        <ol>
+          <li>Type de carte bancaire :</li>
+          <li><input type="radio" name="visa" value="VISA"></li>
+          <li><input type="radio" name="mc" value="Mastercard"></li>
+          <li>Numéro de carte :<input type="maxlength" name="numero carte" placeholder="Numéro de carte"></li>
+          <li>Code de sécurité :<input type="maxlength" name="code sécurité" placeholder="Code de sécurité"></li>
+          <li>Nom de titulaire :<input type="text" name="titulaire" placeholder="Nom du titulaire"></li>
+        </ol>
+      </form>
+    </fieldset>
+    <input type="submit" name="Envoyer" value="J'achète !">
+  </body>
+</html>
